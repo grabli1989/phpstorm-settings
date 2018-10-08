@@ -1,0 +1,18 @@
+<templateSet group="PHP">
+  <template name="test" value="public function test$NAME$()&#10;{&#10;    $END$&#10;}" description="create test" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="eq" value="$this-&gt;assertEquals($END$);" description="assertEquals" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="same" value="$this-&gt;assertSame($END$);" description="assertSame" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
