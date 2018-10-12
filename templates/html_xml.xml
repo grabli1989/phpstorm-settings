@@ -5,4 +5,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="trans" value="&lt;?= $this-&gt;translate('$END$'); ?&gt;" description="translate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
