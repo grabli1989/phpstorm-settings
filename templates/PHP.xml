@@ -15,7 +15,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="wr" value="-&gt;willReturn($END$);" description="willReturn" toReformat="false" toShortenFQNames="true">
+  <template name="wr" value="willReturn($END$);" description="willReturn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sbc" value="shouldBeCalled();" description="shouldBeCalled" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
